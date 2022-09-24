@@ -17,9 +17,10 @@ const config = {
         exclude: /node_modules/,
       },
       {
-        test: /\.scss$/,
+        test: /\.s?[ac]ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+
       {
         test: /\.svg$/,
         use: "file-loader",
