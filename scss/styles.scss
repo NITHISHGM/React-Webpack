@@ -1,6 +1,40 @@
+//sass variables
 $primary-color: white;
 $bg: black;
 h1 {
   color: $primary-color;
   background-color: $bg;
 }
+//sass variables end
+
+// layouts scss 
+  // ->sidebar css
+
+.site-layout-sider {
+  overflow: auto;
+  min-height: 100vh;
+ 
+}
+  // ->sidebar css end
+  // ->Header css
+.site-layout-header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+}
+  // ->Header css end
+  // ->content css
+.site-layout-background {
+  // padding: 0 50px !important;
+  margin-top: 70px !important;
+}
+  // ->content css end
+  // ->footer css
+  .site-layout-footer {
+    background: #d6dce6;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+  // ->footer css end
+// layouts scss end
