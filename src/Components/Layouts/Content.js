@@ -7,12 +7,65 @@ const ContentPage = () => {
     <Content
       className="site-layout-background"
       style={{
-        margin: "24px 16px",
         padding: 24,
         minHeight: 280,
       }}
     >
       ContentPage
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      ContentPage
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      ContentPage
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      ContentPage
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      ContentPage
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
+      <div> ContentPage</div>
     </Content>
   );
 };

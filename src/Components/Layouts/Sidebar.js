@@ -8,6 +8,7 @@ const SidebarPage = () => {
   const SideBarToggleData = useSelector(
     (state) => state.SideBarToggle.SideBarToggle
   );
+
   return (
     <Sider
       trigger={null}
@@ -15,8 +16,16 @@ const SidebarPage = () => {
       collapsed={SideBarToggleData}
       className="site-layout-sider"
       breakpoint="lg"
+      style={{
+        overflow: "auto",
+        height: "100vh",
+        position: "fixed",
+        left: 0,
+        top: 0,
+        bottom: 0,
+      }}
     >
-      SidebarPage
+      <div className="logo" />
     </Sider>
   );
 };
